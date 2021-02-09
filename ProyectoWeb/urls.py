@@ -19,6 +19,8 @@ from django.urls import path, include
 urlpatterns = [
 
     path('admin/', admin.site.urls),
-    path('', include('ProyectoWebApp.urls')), #enlazo urls de la App 
+    path('', include('ProyectoWebApp.urls')), #enlazo urls de la App ProyectoWebApp
+    path('servicios/', include('servicios.urls')), #enlazo urls de la App servicios  
+    path('blog/', include('blog.urls')), #enlazo urls de la App blog  
  
 ]
