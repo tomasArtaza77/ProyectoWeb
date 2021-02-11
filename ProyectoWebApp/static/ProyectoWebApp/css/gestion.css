@@ -279,3 +279,28 @@ ul.errorlist{
   font-style: italic;
   color: red;
 }
+
+
+.linksCategorias{
+
+  color:rgb(247, 240, 240);
+  text-decoration: underline; 
+}
+
+.linksCategorias:hover{
+  text-decoration: none; 
+}
+
+
+.contenedorFormularios{
+  background-color: rgba(18, 59, 148);
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 1px 0px;
+
+
+}
+
+
+
