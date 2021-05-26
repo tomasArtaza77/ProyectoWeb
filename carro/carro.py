@@ -1,6 +1,3 @@
-from _typeshed import SupportsReadline
-
-
 class Carro:
     def __init__(self,request):
         self.request = request
@@ -10,8 +7,8 @@ class Carro:
         if not carro:
             carro = self.session["carro"]={} #construyo diccionario vacio al iniciar la compra
 
-        else:
-            self.carro = carro
+        #else:
+        self.carro = carro
 
     def agregar (self,producto):
         if (str(producto.id) not in self.carro.keys()):
